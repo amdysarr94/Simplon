@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  background-color: white;
+  flex-basis: 720px ;
+}
+.container {
+  padding-top: 8rem;
+  width: 980px;
+  height: 100%;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: auto 396px;
+}
+.gauche {
+  margin-top: 3rem;
+}
+.logo {
+  
+  height: 106px;
+  margin: 0 -20px;
+  padding: 0px;
+}
+.description {
+  font-size: 1.6rem;
+  padding: 0px;
+  margin: 0px 9px 0px 0px;
+  color: #1c1e21;
+}
+.droite {
+  display: flex;
+  flex-direction: column;
+}
+.formulaire {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-shadow: 0 5px 20px 0px darkgrey;
+}
+.input {
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  border: thin solid grey;
+
+}
+input:focus {
+  box-shadow: 0 0 500px 0 blue;
+}
+.input ::placeholder {
+  background-color: black;
+  opacity: 0.3;
+
+}
+input:focus::placeholder {
+  opacity: 0.2;
+}
+.bouton-bleu {
+  padding: 0.8rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 200ms linear;
+}
+.bouton-bleu:hover {
+  background-color: darkblue;
+}
+.lien {
+  color: blue;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin: 0.5rem auto;
+  align-self: center;
+
+}
+.lien:hover {
+  text-decoration: underline;
+}
+.separateur {
+  margin: 1rem 0;
+  color: lightgray;
+  height: 1px;
+  opacity: 0.4;
+}
+.bouton-vert {
+  padding: 1rem;
+  width: 41%;
+  margin: 0.5rem;
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 200ms linear;
+}
+.bouton-vert:hover {
+  background-color: darkgreen;
+}
+.texte-droite {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.texte-droite > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
