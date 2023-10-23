@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(244, 244, 244);
+}
+header {
+    width: 100%;
+    background-color: rgb(80, 174, 85);
+    color: white;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+h2 {
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.priorite{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.statut{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.descript{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+button{
+    background-color: rgb(80, 174, 85);
+    width: 12%;
+    padding: 5px;
+    color: white;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+textarea {
+    margin-bottom: 13px;
+}
+button:hover {
+    background-color: green;
+    
+}
